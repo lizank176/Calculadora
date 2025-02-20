@@ -34,10 +34,7 @@ public class Calculadora {
                 throw new IllegalArgumentException("Opción inválida");
         }
     }
-    public static int potencia(int base, int exponente) {
-        System.out.println("Calculando potencia...");
-        return (int) Math.pow(base, exponente);
-    }
+   
     
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
@@ -62,4 +59,9 @@ public class Calculadora {
         }
         return resultado;
     }
+    public static double media(int a, int b) {
+        System.out.println("Calculando media...");
+        return (a + b) / 2.0;
+    }
+    
 }
