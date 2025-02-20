@@ -39,10 +39,6 @@ public class Calculadora {
         return (a + b) / 2.0;
     }
 
-    public static int multiplicacion_de_3(int a, int b, int c) {
-        System.out.println("Realizando multiplicación de tres números...");
-        return a * b * c;
-    }
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         System.out.println("Seleccione una operación: 1. Sumar 2. Restar 3. Multiplicar 4. Dividir");
